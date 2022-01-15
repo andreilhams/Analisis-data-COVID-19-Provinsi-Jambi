@@ -1,0 +1,14 @@
+library(httr)
+library(dplyr)
+library(ggplot2)
+library(hrbrthemes)
+library(lubridate)
+library(tidyr)
+
+resp_jambi <-GET("https://data.covid19.go.id/public/api/prov_detail_JAMBI.json")
+cov_jambi_raw <- content(resp_jambi, as = "parsed", simplifyVector = TRUE)
+
+cov_jambi_raw
+cov_jambi <- cov_jambi_raw$list_perkembangan
+str(cov_jambi)
+head(cov_jambi)

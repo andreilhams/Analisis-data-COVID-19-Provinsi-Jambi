@@ -1,0 +1,25 @@
+{
+    "id": "8A8FDF02",
+    "path": "E:/Data Science/with R/covid_19/covid.R",
+    "project_path": "covid.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": true,
+    "created": 1609862462096.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "tempName": "Untitled1",
+        "cursorPosition": "169,15",
+        "scrollLine": "152"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1609954433,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1613723149942,
+    "read_only": false,
+    "read_only_alternatives": []
+}
